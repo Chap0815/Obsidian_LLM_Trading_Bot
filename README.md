@@ -14,7 +14,6 @@
 [![Exchange](https://img.shields.io/badge/Exchange-Bitget%20%26%208%20more-00D4AA?style=flat-square)](https://bitget.com)
 [![License](https://img.shields.io/badge/License-MIT-8b5cf6?style=flat-square)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-v2.1.0-10b981?style=flat-square)]()
-[![Mode](https://img.shields.io/badge/Default-Simulation%20Only-22c55e?style=flat-square)]()
 
 *Automatisiertes Krypto-Trading mit lokaler KI — kein API-Key für KI, keine Cloud-Abhängigkeit, keine versteckten Kosten.*
 
