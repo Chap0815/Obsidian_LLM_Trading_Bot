@@ -6,12 +6,12 @@
 </a>
 
 <h3>
-  <em>Drei spezialisierte Bots</em> · <em>Spot &amp; Perpetuals</em> · <em>Lokale LLM-Intelligenz</em>
+  <em>Three specialized bots</em> · <em>Spot &amp; Perpetuals</em> · <em>Local LLM intelligence</em>
 </h3>
 
 <p>
-  <em>Präzises Risikomanagement und ein natives Desktop-Terminal —<br/>
-  100&nbsp;% lokal, 0&nbsp;% Cloud, 0&nbsp;€ versteckte Kosten.</em>
+  <em>Precise risk management and a native desktop terminal —<br/>
+  100&nbsp;% local, 0&nbsp;% cloud, 0&nbsp;€ hidden costs.</em>
 </p>
 
 <br/>
@@ -44,39 +44,39 @@
 <tr>
   <td align="center" width="160">
     <h2>3</h2>
-    <sub><b>BOT-STRATEGIEN</b></sub><br/>
+    <sub><b>BOT STRATEGIES</b></sub><br/>
     <sub>Balanced · Aggressive · Futures</sub>
   </td>
   <td align="center" width="160">
     <h2>30</h2>
     <sub><b>MAX. TRADES</b></sub><br/>
-    <sub>Parallel offen</sub>
+    <sub>Open in parallel</sub>
   </td>
   <td align="center" width="160">
     <h2>10×</h2>
     <sub><b>MAX. LEVERAGE</b></sub><br/>
-    <sub>Isoliert · Liq-Buffer</sub>
+    <sub>Isolated · Liq-Buffer</sub>
   </td>
   <td align="center" width="160">
     <h2>11</h2>
-    <sub><b>NEWS-QUELLEN</b></sub><br/>
-    <sub>Parallel aggregiert</sub>
+    <sub><b>NEWS SOURCES</b></sub><br/>
+    <sub>Aggregated in parallel</sub>
   </td>
   <td align="center" width="160">
     <h2>100%</h2>
-    <sub><b>LOKAL · PRIVAT</b></sub><br/>
-    <sub>Keine Cloud, kein Tracking</sub>
+    <sub><b>LOCAL · PRIVATE</b></sub><br/>
+    <sub>No cloud, no tracking</sub>
   </td>
 </tr>
 </table>
 
 </div>
 
-## ⚡ Was ist Obsidian?
+## ⚡ What is Obsidian?
 
-**Obsidian** ist ein vollständiges Trading-Terminal für **drei unabhängige Bots in einem nativen Desktop-Fenster**.
-Alle Handelsentscheidungen trifft ein **lokal laufendes Sprachmodell** (Ollama / DeepSeek-R1) —
-**kein externer KI-Dienst, kein API-Key, kein Cloud-Abo.**
+**Obsidian** is a complete trading terminal for **three independent bots in a native desktop window**.
+All trading decisions are made by a **locally running language model** (Ollama / DeepSeek-R1) —
+**no external AI service, no API key, no cloud subscription.**
 
 <div align="center">
 
@@ -96,67 +96,67 @@ Alle Handelsentscheidungen trifft ein **lokal laufendes Sprachmodell** (Ollama /
 
 ---
 
-## 📑 Inhaltsverzeichnis
+## 📑 Table of Contents
 
-- [Features im Überblick](#-features-im-überblick)
-- [Die drei Strategien](#-die-drei-strategien)
-- [Schnellinstallation](#-schnellinstallation)
-- [Voraussetzungen](#-voraussetzungen)
-- [Schritt-für-Schritt Installation](#-schritt-für-schritt-installation)
-- [LLM einrichten (Ollama)](#-llm-einrichten-ollama)
-- [Unterstützte Exchanges](#-unterstützte-exchanges)
-- [KI-Features im Detail](#-ki-features-im-detail)
-- [Risikomanagementsystem](#-risikomanagementsystem)
+- [Feature Overview](#-feature-overview)
+- [The Three Strategies](#-the-three-strategies)
+- [Quick Installation](#-quick-installation)
+- [Requirements](#-requirements)
+- [Step-by-Step Installation](#-step-by-step-installation)
+- [Setting Up the LLM (Ollama)](#-setting-up-the-llm-ollama)
+- [Supported Exchanges](#-supported-exchanges)
+- [AI Features in Detail](#-ai-features-in-detail)
+- [Risk Management System](#-risk-management-system)
 - [Backtest & Optimizer](#-backtest--optimizer)
 - [Dashboard](#-dashboard)
-- [Parameter-Referenz](#-parameter-referenz)
+- [Parameter Reference](#-parameter-reference)
 - [Troubleshooting](#-troubleshooting)
 - [Disclaimer](#-disclaimer)
 
 ---
 
-## 🚀 Features im Überblick
+## 🚀 Feature Overview
 
-### 🧠 Kern
+### 🧠 Core
 
-| Feature | Beschreibung |
+| Feature | Description |
 |---|---|
-| **3 unabhängige Bots** | BALANCED (Spot), AGGRESSIVE (Spot), FUTURES (Perpetuals Long/Short) |
-| **Lokales LLM** | Ollama — DeepSeek-R1, Qwen, Mistral, Llama — kein Cloud-Abo |
-| **Bull/Bear Adversarial Mode** | Zweiter LLM-Call hinterfragt jede Kaufentscheidung kritisch |
-| **Reflection Loop** | Verlust-Musteranalyse injiziert Lern-Kontext in den nächsten Prompt |
-| **Auto Symbol Scoring** | Kandidaten nach Vol-Surge, RSI-Momentum & Win-Rate ranked |
-| **Multi-Source News** | 11 Quellen parallel: CryptoPanic · Reddit · 8 RSS-Feeds · CoinGecko |
-| **Editierbare KI-Prompts** | Per-Bot-Prompt live editierbar — direkt im Terminal, mit Validierung |
-| **LLM-Fallback** | Bei Ollama-Ausfall: keyword-basierter Filter läuft automatisch weiter |
-| **SIM/LIVE Toggle** | Jeder Bot unabhängig umschaltbar mit Bestätigungsdialog |
-| **Unrealized PnL Live** | Echtzeit-Anzeige offener Positionen pro Bot und als Gesamtsumme |
+| **3 independent bots** | BALANCED (Spot), AGGRESSIVE (Spot), FUTURES (Perpetuals Long/Short) |
+| **Local LLM** | Ollama — DeepSeek-R1, Qwen, Mistral, Llama — no cloud subscription |
+| **Bull/Bear Adversarial Mode** | Second LLM call critically challenges every buy decision |
+| **Reflection Loop** | Loss pattern analysis injects learning context into the next prompt |
+| **Auto Symbol Scoring** | Candidates ranked by Vol-Surge, RSI-Momentum & Win-Rate |
+| **Multi-Source News** | 11 sources in parallel: CryptoPanic · Reddit · 8 RSS feeds · CoinGecko |
+| **Editable AI Prompts** | Per-bot prompt editable live — directly in the terminal, with validation |
+| **LLM Fallback** | On Ollama failure: keyword-based filter runs automatically |
+| **SIM/LIVE Toggle** | Each bot independently switchable with confirmation dialog |
+| **Unrealized PnL Live** | Real-time display of open positions per bot and as a total |
 
 ### 📊 Tools & Analytics
 
-| Feature | Beschreibung |
+| Feature | Description |
 |---|---|
-| **K-Fold Optimizer** | 30.000+ Parameterkombinationen · 4-Fold CV · Robustheitsscore |
-| **Backtester** | Historische Binance-Daten · echte Fee-Modellierung · Live-Output |
-| **Streamlit Dashboard** | 5 Tabs: KPIs · Equity-Curve · Positions · Sharpe/Sortino · Bot-Vergleich |
-| **Win/Loss Heatmap** | Win-Rate nach Stunde × Wochentag — 30-Tage-Fenster |
-| **Emergency Close** | Futures: alle Positionen sofort mit `reduceOnly`-Orders schließen |
+| **K-Fold Optimizer** | 30,000+ parameter combinations · 4-Fold CV · Robustness score |
+| **Backtester** | Historical Binance data · real fee modeling · live output |
+| **Streamlit Dashboard** | 5 tabs: KPIs · Equity curve · Positions · Sharpe/Sortino · Bot comparison |
+| **Win/Loss Heatmap** | Win-rate by hour × weekday — 30-day window |
+| **Emergency Close** | Futures: close all positions immediately with `reduceOnly` orders |
 
-### 🛡️ Robustheit & Datenschutz
+### 🛡️ Robustness & Privacy
 
-| Feature | Beschreibung |
+| Feature | Description |
 |---|---|
-| **Graceful Shutdown** | SIGTERM → Positionen schließen → DB persistieren → Exit |
-| **State Reconciliation** | Beim Start: lokaler State vs. echte Exchange-Balance abgleichen |
-| **Atomic File Writes** | tmp + fsync + os.replace — korrupte Dateien bei Absturz unmöglich |
-| **SQLite WAL-Mode** | 7 Tabellen · Lese-Abfragen blockieren nie schreibende Bots |
-| **Circuit Breaker** | Exponentieller Backoff bei API-Fehlern (bis 10 Min.) |
-| **Telegram** | Kauf/Verkauf-Benachrichtigungen mit Proxy-Support |
-| **100 % lokal** | Keine Daten verlassen deinen Rechner |
+| **Graceful Shutdown** | SIGTERM → close positions → persist DB → exit |
+| **State Reconciliation** | On startup: reconcile local state vs. real exchange balance |
+| **Atomic File Writes** | tmp + fsync + os.replace — corrupted files on crash impossible |
+| **SQLite WAL-Mode** | 7 tables · read queries never block writing bots |
+| **Circuit Breaker** | Exponential backoff on API errors (up to 10 min.) |
+| **Telegram** | Buy/sell notifications with proxy support |
+| **100 % local** | No data leaves your machine |
 
 ---
 
-## 🎯 Die drei Strategien
+## 🎯 The Three Strategies
 
 <table>
 <tr>
@@ -165,7 +165,7 @@ Alle Handelsentscheidungen trifft ein **lokal laufendes Sprachmodell** (Ollama /
 ### 🤖 BALANCED
 **Spot · Risk-Aware**
 
-Optimizer-validiert (60 Tage · 30.240 Kombi · K-Fold 4). Kauft früh im Momentum, lässt Gewinner laufen.
+Optimizer-validated (60 days · 30,240 combos · K-Fold 4). Buys early in momentum, lets winners run.
 
 ```yaml
 Min. Pump      : 2.0%
@@ -185,7 +185,7 @@ Daily Limit    : −50$
 ### ⚡ AGGRESSIVE
 **Spot · Momentum**
 
-Höhere Einstiegsschwelle fängt nur starke Ausbrüche. 60% Partial-Exit sichert früh Gewinne.
+Higher entry threshold catches only strong breakouts. 60% partial exit locks in profits early.
 
 ```yaml
 Min. Pump      : 6.0%
@@ -205,7 +205,7 @@ Daily Limit    : −50$
 ### 📈 FUTURES
 **Perpetuals · Long/Short**
 
-Das LLM entscheidet die Richtung (LONG / SHORT / WAIT). Break-Even-Trigger, Liq-Safety-Buffer.
+The LLM decides the direction (LONG / SHORT / WAIT). Break-even trigger, liquidation safety buffer.
 
 ```yaml
 Min. Pump      : 2.0%
@@ -225,103 +225,103 @@ Daily Limit    : −30$
 
 ---
 
-## ⚡ Schnellinstallation
+## ⚡ Quick Installation
 
 ```text
-1.  ZIP herunterladen und entpacken (empfohlen: C:\ObsidianBot\)
-2.  INSTALL.bat doppelklicken
-3.  Warten bis "Setup Complete!" erscheint  (2–5 Minuten)
-4.  OBSIDIAN.vbs doppelklicken → Setup-Wizard → fertig
+1.  Download ZIP and extract (recommended: C:\ObsidianBot\)
+2.  Double-click INSTALL.bat
+3.  Wait until "Setup Complete!" appears  (2–5 minutes)
+4.  Double-click OBSIDIAN.vbs → Setup Wizard → done
 ```
 
-> 💡 **Kein Python nötig.** Das Installer-Skript lädt Python 3.13 Embedded (~30 MB) automatisch herunter.
+> 💡 **No Python required.** The installer script automatically downloads Python 3.13 Embedded (~30 MB).
 
 ---
 
-## ✅ Voraussetzungen
+## ✅ Requirements
 
-**Pflicht:**
-- Windows 10 / 11 (64-bit) — Linux mit Python 3.11+ funktioniert ebenfalls
-- Internetverbindung für die Erstinstallation
-- Exchange-Account mit API-Key (Trade-Berechtigung)
+**Required:**
+- Windows 10 / 11 (64-bit) — Linux with Python 3.11+ also works
+- Internet connection for initial installation
+- Exchange account with API key (trade permission)
 
-**Optional aber empfohlen:**
-- [Ollama](https://ollama.ai) für KI-Entscheidungen
-- NVIDIA GPU für schnellere LLM-Inferenz
-- CryptoPanic API-Token für erweiterte News
-- Telegram Bot Token für Push-Benachrichtigungen
+**Optional but recommended:**
+- [Ollama](https://ollama.ai) for AI decisions
+- NVIDIA GPU for faster LLM inference
+- CryptoPanic API token for extended news
+- Telegram bot token for push notifications
 
-**Nicht nötig:**
-- Python vorinstalliert · Programmierkenntnisse · Admin-Rechte
+**Not required:**
+- Pre-installed Python · Programming knowledge · Admin rights
 
 ---
 
-## 📥 Schritt-für-Schritt Installation
+## 📥 Step-by-Step Installation
 
-### 1 — Herunterladen und Entpacken
-- ZIP-Datei herunterladen → Rechtsklick → **Alle extrahieren**
-- In einen dauerhaften Ordner entpacken — **nicht** in `Downloads`
-- Empfohlen: `C:\ObsidianBot\`
+### 1 — Download and Extract
+- Download ZIP file → Right-click → **Extract All**
+- Extract to a permanent folder — **not** into `Downloads`
+- Recommended: `C:\ObsidianBot\`
 
-> ⚠️ Einzelne Dateien nicht aus dem Ordner verschieben. Der `prompts/`-Unterordner muss neben `launcher.pyw` bleiben.
+> ⚠️ Do not move individual files out of the folder. The `prompts/` subfolder must remain next to `launcher.pyw`.
 
-### 2 — Installer ausführen
+### 2 — Run Installer
 ```text
 [1/4] Checking Python...
-[2/4] Downloading Python 3.13 Embedded (~30 MB)    ← nur wenn Python fehlt
+[2/4] Downloading Python 3.13 Embedded (~30 MB)    ← only if Python is missing
 [3/4] Installing dependencies (2–5 min)...
 [4/4] Creating desktop shortcut...
        Setup Complete!
 ```
 
-> 📦 **Pakete:** `customtkinter` · `psutil` · `ccxt` · `pandas` · `pandas_ta` · `python-dotenv` · `requests` · `feedparser` · `ollama` · `streamlit` · `plotly`
+> 📦 **Packages:** `customtkinter` · `psutil` · `ccxt` · `pandas` · `pandas_ta` · `python-dotenv` · `requests` · `feedparser` · `ollama` · `streamlit` · `plotly`
 
-### 3 — Erststart und Setup-Wizard
-**`OBSIDIAN.vbs` doppelklicken** (oder Desktop-Verknüpfung) — der Setup-Wizard öffnet sich beim ersten Start.
+### 3 — First Launch and Setup Wizard
+**Double-click `OBSIDIAN.vbs`** (or desktop shortcut) — the Setup Wizard opens on first launch.
 
-| Schritt | Aktion |
+| Step | Action |
 |---|---|
-| **1** Exchange wählen | Klick auf Exchange. Strategie auf Bitget-Daten optimiert. |
-| **2** API-Credentials | ✅ Trade · ✅ Futures (für FUTURES-Bot) · ❌ **NIEMALS** Withdrawal |
-| **3** Proxy (optional) | Nur in eingeschränkten Regionen |
-| **4** Optionale Services | Telegram · CryptoPanic · Verbindungstest |
+| **1** Choose exchange | Click on exchange. Strategy optimized on Bitget data. |
+| **2** API credentials | ✅ Trade · ✅ Futures (for FUTURES bot) · ❌ **NEVER** Withdrawal |
+| **3** Proxy (optional) | Only in restricted regions |
+| **4** Optional services | Telegram · CryptoPanic · Connection test |
 
-**Passphrase nötig?**
+**Passphrase required?**
 
 | Exchange | Passphrase |
 |---|:---:|
-| Bitget · OKX · KuCoin | ✅ Ja |
-| Binance · Bybit · Kraken · Coinbase · Gate.io · MEXC | ❌ Nein |
+| Bitget · OKX · KuCoin | ✅ Yes |
+| Binance · Bybit · Kraken · Coinbase · Gate.io · MEXC | ❌ No |
 
 ---
 
-## 🧠 LLM einrichten (Ollama)
+## 🧠 Setting Up the LLM (Ollama)
 
-Die Bots funktionieren auch ohne LLM über einen keyword-basierten Fallback. Mit LLM sind die Entscheidungen **deutlich präziser** — und Bull/Bear Challenge + Reflection Loop kommen erst mit LLM richtig zur Geltung.
+The bots also work without an LLM via a keyword-based fallback. With LLM, decisions are **significantly more precise** — and the Bull/Bear Challenge + Reflection Loop only truly shine with LLM enabled.
 
 ```bash
-# 1. Ollama herunterladen: https://ollama.ai
+# 1. Download Ollama: https://ollama.ai
 
-# 2. Modell wählen und laden
-ollama pull deepseek-r1:14b   # Beste Qualität  · ~8 GB VRAM/RAM
-ollama pull deepseek-r1:7b    # Gut             · ~4 GB
-ollama pull qwen2.5:7b        # Schnell + gut   · ~4 GB
-ollama pull mistral:7b        # Zuverlässig     · ~4 GB
-ollama pull llama3.2:3b       # Sehr schnell    · ~2 GB
+# 2. Choose and pull a model
+ollama pull deepseek-r1:14b   # Best quality  · ~8 GB VRAM/RAM
+ollama pull deepseek-r1:7b    # Good          · ~4 GB
+ollama pull qwen2.5:7b        # Fast + good   · ~4 GB
+ollama pull mistral:7b        # Reliable      · ~4 GB
+ollama pull llama3.2:3b       # Very fast     · ~2 GB
 
-# 3. Server starten
+# 3. Start the server
 ollama serve
 ```
 
-> ✨ Im Terminal: Sidebar → **CONNECTIONS → LLM: Ready** (grün). Bot-Karte → AI-Badge wechselt auf **AI: LLM** beim ersten Trade. Modell-Wechsel innerhalb von 5 Sekunden erkannt.
+> ✨ In the terminal: Sidebar → **CONNECTIONS → LLM: Ready** (green). Bot card → AI badge switches to **AI: LLM** on first trade. Model change detected within 5 seconds.
 
 ---
 
-## 🌐 Unterstützte Exchanges
+## 🌐 Supported Exchanges
 
-| Exchange | Spot | Futures | Hinweis |
+| Exchange | Spot | Futures | Note |
 |---|:---:|:---:|---|
-| **Bitget** ⭐ | ✅ | ✅ | Optimiert auf Bitget-Daten |
+| **Bitget** ⭐ | ✅ | ✅ | Optimized on Bitget data |
 | Binance | ✅ | ✅ | |
 | OKX | ✅ | ✅ | |
 | Bybit | ✅ | ✅ | |
@@ -331,245 +331,245 @@ ollama serve
 | Gate.io | ✅ | ✅ | |
 | MEXC | ✅ | ✅ | |
 
-> ⭐ Beim Wechsel auf eine andere Exchange den **Optimizer** ausführen, um Parameter anzupassen.
+> ⭐ When switching to a different exchange, run the **Optimizer** to adjust parameters.
 
 ---
 
-## 🤖 KI-Features im Detail
+## 🤖 AI Features in Detail
 
-### Entscheidungsablauf (pro Scan-Zyklus)
+### Decision Flow (per scan cycle)
 
 ```text
 ┌─────────────────────────────────────────────────────┐
 │  1. SCREENER                                        │
-│     USDT-Paare filtern: Volumen · Min. Pump         │
-│     Parallel: RSI 15m/1h/4h · MACD · ATR · EMA(50)  │
-│     Qualitätsfilter: Vol-Surge ≥ 1.5× · ATR 1-8%    │
+│     Filter USDT pairs: Volume · Min. Pump           │
+│     Parallel: RSI 15m/1h/4h · MACD · ATR · EMA(50) │
+│     Quality filter: Vol-Surge ≥ 1.5× · ATR 1-8%    │
 ├─────────────────────────────────────────────────────┤
 │  2. AUTO SYMBOL SCORING                       v2.1  │
 │     Volume-Surge 40% + RSI-Momentum 30%             │
-│     + Historische Win-Rate (eigene DB) 30%          │
+│     + Historical Win-Rate (own DB) 30%              │
 ├─────────────────────────────────────────────────────┤
 │  3. REFLECTION CONTEXT                        v2.1  │
-│     ≥ 3 SLs in letzten 20 Trades?                   │
-│     → RSI-Muster · Pump-Größe · BTC-Korrelation     │
-│     → 3-5 Zeilen Kontext vor den Prompt             │
+│     ≥ 3 SLs in last 20 trades?                      │
+│     → RSI pattern · Pump size · BTC correlation     │
+│     → 3-5 lines of context prepended to prompt      │
 ├─────────────────────────────────────────────────────┤
-│  4. LLM-ANALYSE (erster Call)                       │
+│  4. LLM ANALYSIS (first call)                       │
 │     Prompt: RSI · News · Regime · BTC · F&G         │
 │     Spot:    RESULT: BUY / WAIT                     │
 │     Futures: RESULT: LONG / SHORT / WAIT            │
 ├─────────────────────────────────────────────────────┤
 │  5. BULL/BEAR CHALLENGE                       v2.1  │
-│     Nur bei BUY/LONG/SHORT (kein Call bei WAIT)     │
-│     Zweiter LLM-Call: stärkste Gegenargumente?      │
-│     CHALLENGE: WEAK   → Signal bleibt               │
-│     CHALLENGE: STRONG → Signal wird WAIT            │
+│     Only on BUY/LONG/SHORT (no call on WAIT)        │
+│     Second LLM call: strongest counter-arguments?   │
+│     CHALLENGE: WEAK   → signal stands               │
+│     CHALLENGE: STRONG → signal becomes WAIT         │
 ├─────────────────────────────────────────────────────┤
-│  6. QUALITÄTS- & RISIKOFILTER                       │
-│     Konfidenz · Multi-TF RSI · BTC-Dump · F&G       │
-│     Blacklist · Cooldown · Daily-Killswitch         │
+│  6. QUALITY & RISK FILTERS                          │
+│     Confidence · Multi-TF RSI · BTC dump · F&G      │
+│     Blacklist · Cooldown · Daily killswitch         │
 ├─────────────────────────────────────────────────────┤
-│  7. ORDER-EXECUTION                                 │
-│     Kelly-Sizing · Precision-Rounding · Fee-Track   │
+│  7. ORDER EXECUTION                                 │
+│     Kelly sizing · Precision rounding · Fee track   │
 └─────────────────────────────────────────────────────┘
 ```
 
 ### 🥊 Bull/Bear Adversarial Mode (v2.1)
-Jede positive Entscheidung (BUY/LONG/SHORT) wird durch einen zweiten kurzen LLM-Call herausgefordert. Der **Challenger** sucht konkrete Gegenargumente: *squeeze risk, late entry, RSI overextension, funding pressure*.
-- Kein Extra-Call bei WAIT — spart Latenz
-- Deaktivierbar via `BULL_BEAR_MODE=false` in der `.env`
+Every positive decision (BUY/LONG/SHORT) is challenged by a second short LLM call. The **challenger** looks for concrete counter-arguments: *squeeze risk, late entry, RSI overextension, funding pressure*.
+- No extra call on WAIT — saves latency
+- Can be disabled via `BULL_BEAR_MODE=false` in `.env`
 
 ### 🔄 Reflection Loop (v2.1)
-Bei **≥ 3 Stop-Losses in den letzten 20 Trades** analysiert der Bot Verlust-Muster (Ø RSI · Pump-Größe · BTC-Korrelation · F&G) und stellt 3–5 Zeilen vor den nächsten Prompt — **ohne zusätzlichen LLM-Call**. Refresh alle 2 h.
+With **≥ 3 stop-losses in the last 20 trades**, the bot analyzes loss patterns (avg RSI · pump size · BTC correlation · F&G) and prepends 3–5 lines to the next prompt — **without an additional LLM call**. Refreshes every 2 h.
 
 ### 🎯 Auto Symbol Scoring (v2.1)
 
-| Gewicht | Kriterium |
+| Weight | Criterion |
 |:---:|---|
-| **40%** | Volume-Surge-Ratio |
-| **30%** | RSI-Momentum-Score (Sweetspot 45–65) |
-| **30%** | Historische Win-Rate (eigene DB, 30 Tage) |
+| **40%** | Volume-Surge ratio |
+| **30%** | RSI-Momentum score (sweet spot 45–65) |
+| **30%** | Historical win-rate (own DB, 30 days) |
 
-### 📰 News-Quellen (parallel)
+### 📰 News Sources (parallel)
 
 CryptoPanic · Reddit `/r/cryptocurrency` · CoinTelegraph · CoinDesk · CryptoSlate · BeInCrypto · Decrypt · NewsBTC · Bitcoin Magazine · The Block · CoinGecko Trending
 
-> Alle Quellen parallel mit eigenem Timeout — eine langsame Quelle blockiert nicht die anderen. **5-Minuten-Cache** pro Symbol.
+> All sources run in parallel with individual timeouts — one slow source does not block the others. **5-minute cache** per symbol.
 
 ---
 
-## 🛡️ Risikomanagementsystem
+## 🛡️ Risk Management System
 
-Das System lernt nach jedem abgeschlossenen Trade (aktiv ab 10 Trades):
+The system learns after every completed trade (active from 10 trades onward):
 
-- **Kelly-Criterion** — optimale Losgröße aus Win-Rate, Avg-Win, Avg-Loss (30% Fraction)
-- **RSI-Schwellen-Adaption** — Win-Rate < 35% → Schwelle −3 / > 65% → +2 (Range 50–88)
-- **Coin-Blacklist** — 2/5 Verluste = 72h · 3+ = 168h, persistiert in SQLite
-- **Zeitanalyse** — Stunden mit Win-Rate < 35% & Avg-PnL < −1 USDT werden gesperrt
-- **Daily Loss Killswitch** — Standard −50 USDT Spot / −30 USDT Futures
-- **BTC-Korrelationsschutz** — Kein Kauf bei BTC-Dump > 2% / 1h
-- **Fear & Greed (Multi-Source)** — alternative.me → coinybubble.com → Neutral-Fallback (50). Kein Kauf bei F&G ≥ 85.
-- **Circuit Breaker** — Exponentieller Backoff bei API-Fehlern (bis 10 Min.)
+- **Kelly Criterion** — optimal position size from win-rate, avg-win, avg-loss (30% fraction)
+- **RSI Threshold Adaptation** — Win-rate < 35% → threshold −3 / > 65% → +2 (range 50–88)
+- **Coin Blacklist** — 2/5 losses = 72h · 3+ = 168h, persisted in SQLite
+- **Time Analysis** — Hours with win-rate < 35% & avg PnL < −1 USDT are blocked
+- **Daily Loss Killswitch** — Default −50 USDT Spot / −30 USDT Futures
+- **BTC Correlation Protection** — No buy on BTC dump > 2% / 1h
+- **Fear & Greed (Multi-Source)** — alternative.me → coinybubble.com → neutral fallback (50). No buy at F&G ≥ 85.
+- **Circuit Breaker** — Exponential backoff on API errors (up to 10 min.)
 
 ---
 
 ## 📊 Backtest & Optimizer
 
 ### 🔬 Backtester
-Testet aktuelle Parameter auf historischen Binance-Preisdaten.
+Tests current parameters on historical Binance price data.
 - **Strategy:** BALANCED / AGGRESSIVE / FUTURES
-- **Zeitraum:** 7 / 14 / 30 / 60 / 90 Tage
-- **Metriken:** Net PnL · Win-Rate · Sharpe · Sortino · Max Drawdown · Profit Factor
+- **Period:** 7 / 14 / 30 / 60 / 90 days
+- **Metrics:** Net PnL · Win-Rate · Sharpe · Sortino · Max Drawdown · Profit Factor
 
 ### 🧪 Optimizer (K-Fold Cross-Validation)
-Testet 6 Parameter (~20.000–40.000 Kombi je Bot) mit **4-Fold CV** — findet Configs die in **allen** Zeitperioden profitabel sind.
+Tests 6 parameters (~20,000–40,000 combos per bot) with **4-Fold CV** — finds configs that are profitable across **all** time periods.
 
-| Modus | Laufzeit | Kombinationen |
+| Mode | Runtime | Combinations |
 |---|---|---|
-| **Quick** | 5–15 Min. | Reduzierter Suchraum |
-| **Full** | 30–90 Min. | Vollständiger Suchraum |
+| **Quick** | 5–15 min. | Reduced search space |
+| **Full** | 30–90 min. | Full search space |
 
-> 🏆 Beste Konfiguration in **Gold** hervorgehoben + **Sensitivitätsanalyse** (ROBUST / DURCHSCHNITTLICH / FRAGIL). `✓ Apply best config` schreibt direkt in `bot_config.json`.
+> 🏆 Best configuration highlighted in **gold** + **sensitivity analysis** (ROBUST / AVERAGE / FRAGILE). `✓ Apply best config` writes directly to `bot_config.json`.
 
 ---
 
 ## 📈 Dashboard
 
-`Open Dashboard` öffnet die Streamlit-Analytics im Browser.
+`Open Dashboard` opens the Streamlit analytics in the browser.
 
-| Tab | Inhalt |
+| Tab | Content |
 |---|---|
-| **Overview** | Hero KPIs · Equity-Curve mit Bot-Markern · Drawdown-Chart |
-| **Trades** | Filterbares Trade-Journal nach Outcome/Coin/Grund/Typ |
-| **Positions** | Live Spot + Futures · Liq-Distanz-Ampel für Futures |
-| **Performance** | Sharpe · Sortino · Profit Factor · Expectancy · Stunden-Heatmap |
-| **Bots** | Side-by-Side Vergleich · Per-Bot Equity-Curves · Lern-Timeline |
+| **Overview** | Hero KPIs · Equity curve with bot markers · Drawdown chart |
+| **Trades** | Filterable trade journal by outcome/coin/reason/type |
+| **Positions** | Live Spot + Futures · Liquidation distance indicator for Futures |
+| **Performance** | Sharpe · Sortino · Profit Factor · Expectancy · Hourly heatmap |
+| **Bots** | Side-by-side comparison · Per-bot equity curves · Learning timeline |
 
 ---
 
-## ⚙️ Parameter-Referenz
+## ⚙️ Parameter Reference
 
-### Gemeinsame Parameter (alle Bots)
+### Shared Parameters (all bots)
 
-| Parameter | BALANCED | AGGRESSIVE | FUTURES | Beschreibung |
+| Parameter | BALANCED | AGGRESSIVE | FUTURES | Description |
 |---|:---:|:---:|:---:|---|
-| Min. Pump | 2.0 % | 6.0 % | 2.0 % | Mindest-24h-Bewegung für Scan |
-| Activation TP | 9.0 % | 9.0 % | 4.5 % | Partial-Exit-Trigger |
-| Trailing Distance | 2.0 % | 3.0 % | 2.5 % | Abstand vom Höchstpreis |
-| Stop-Loss | −4.0 % | −6.0 % | −3.5 % | Initiales Stop-Level |
-| Breakeven At | 0 (aus) | 0 (aus) | 2.0 % | SL auf Entry ziehen |
-| Partial Sell | 30 % | 60 % | 40 % | Anteil beim ersten TP |
-| RSI Max | 65 | 65 | 70 | Max RSI auf 2+ Timeframes |
-| Position Size | 10 USDT | 10 USDT | 10 USDT | Pro Trade |
-| Kelly Cap | 25 USDT | 25 USDT | 25 USDT | Dynamisches Maximum |
-| Max Open Trades | 5 | 5 | 3 | Gleichzeitige Positionen |
-| Scan Interval | 300 s | 150 s | 150 s | Zwischen Scans |
-| SL Cooldown | 120 min | 60 min | 120 min | Sperre nach Stop-Loss |
-| Daily Loss Limit | −50 USDT | −50 USDT | −30 USDT | Tages-Killswitch |
+| Min. Pump | 2.0 % | 6.0 % | 2.0 % | Minimum 24h movement for scan |
+| Activation TP | 9.0 % | 9.0 % | 4.5 % | Partial exit trigger |
+| Trailing Distance | 2.0 % | 3.0 % | 2.5 % | Distance from peak price |
+| Stop-Loss | −4.0 % | −6.0 % | −3.5 % | Initial stop level |
+| Breakeven At | 0 (off) | 0 (off) | 2.0 % | Move SL to entry |
+| Partial Sell | 30 % | 60 % | 40 % | Portion at first TP |
+| RSI Max | 65 | 65 | 70 | Max RSI on 2+ timeframes |
+| Position Size | 10 USDT | 10 USDT | 10 USDT | Per trade |
+| Kelly Cap | 25 USDT | 25 USDT | 25 USDT | Dynamic maximum |
+| Max Open Trades | 5 | 5 | 3 | Simultaneous positions |
+| Scan Interval | 300 s | 150 s | 150 s | Between scans |
+| SL Cooldown | 120 min | 60 min | 120 min | Lock after stop-loss |
+| Daily Loss Limit | −50 USDT | −50 USDT | −30 USDT | Daily killswitch |
 
-### FUTURES-spezifische Parameter
+### FUTURES-specific Parameters
 
-| Parameter | Default | Bereich | Beschreibung |
+| Parameter | Default | Range | Description |
 |---|:---:|:---:|---|
-| Leverage | 3× | 1–10× | Isoliertes Leverage |
-| Liq Safety Buffer | 15 % | 5–50 % | Auto-Close vor Liquidation |
-| Monitor Interval | 20 s | 5–120 s | Liq-Check für offene Positionen |
+| Leverage | 3× | 1–10× | Isolated leverage |
+| Liq Safety Buffer | 15 % | 5–50 % | Auto-close before liquidation |
+| Monitor Interval | 20 s | 5–120 s | Liquidation check for open positions |
 
 ---
 
 ## 🛠️ Troubleshooting
 
 <details>
-<summary><strong>INSTALL.bat schließt sofort</strong></summary>
-Rechtsklick → <em>Als Administrator ausführen</em>. Antivirus kann den Downloader blockieren.
+<summary><strong>INSTALL.bat closes immediately</strong></summary>
+Right-click → <em>Run as administrator</em>. Antivirus may block the downloader.
 </details>
 
 <details>
-<summary><strong>"Python not found" nach Installation</strong></summary>
-Den <code>python\</code>-Ordner löschen, <code>INSTALL.bat</code> erneut ausführen.
+<summary><strong>"Python not found" after installation</strong></summary>
+Delete the <code>python\</code> folder and run <code>INSTALL.bat</code> again.
 </details>
 
 <details>
-<summary><strong>OBSIDIAN.vbs öffnet Notepad</strong></summary>
-Rechtsklick → <em>Öffnen mit</em> → <em>Windows Script Host</em>.
+<summary><strong>OBSIDIAN.vbs opens Notepad</strong></summary>
+Right-click → <em>Open with</em> → <em>Windows Script Host</em>.
 </details>
 
 <details>
-<summary><strong>Setup-Wizard erscheint nicht</strong></summary>
-Eine <code>.env</code>-Datei existiert bereits. Löschen und neu starten.
+<summary><strong>Setup Wizard does not appear</strong></summary>
+A <code>.env</code> file already exists. Delete it and restart.
 </details>
 
 <details>
-<summary><strong>Verbindungstest fehlgeschlagen — "invalid API key"</strong></summary>
-Key ohne Leerzeichen einfügen. Trade- und (bei FUTURES) Perpetual-Berechtigung prüfen.
+<summary><strong>Connection test failed — "invalid API key"</strong></summary>
+Enter key without spaces. Check trade and (for FUTURES) perpetual permissions.
 </details>
 
 <details>
-<summary><strong>LLM zeigt "Offline" obwohl Ollama läuft</strong></summary>
-Sicherstellen dass Ollama auf <code>http://localhost:11434</code> läuft: <code>ollama serve</code>.
+<summary><strong>LLM shows "Offline" even though Ollama is running</strong></summary>
+Make sure Ollama is running on <code>http://localhost:11434</code>: <code>ollama serve</code>.
 </details>
 
 <details>
-<summary><strong>FUTURES-Bot findet 0 Coins</strong></summary>
-API-Key auf Perpetual-Berechtigung prüfen. Screener erkennt <code>BTC/USDT</code> und <code>BTC/USDT:USDT</code> automatisch.
+<summary><strong>FUTURES bot finds 0 coins</strong></summary>
+Check API key for perpetual permission. Screener auto-detects <code>BTC/USDT</code> and <code>BTC/USDT:USDT</code>.
 </details>
 
 <details>
-<summary><strong>Bull/Bear Mode dauert zu lang</strong></summary>
-In <code>.env</code> <code>BULL_BEAR_MODE=false</code> setzen oder schnelleres Modell wählen (z.B. <code>qwen2.5:7b</code>).
+<summary><strong>Bull/Bear Mode takes too long</strong></summary>
+Set <code>BULL_BEAR_MODE=false</code> in <code>.env</code> or choose a faster model (e.g. <code>qwen2.5:7b</code>).
 </details>
 
 <details>
-<summary><strong>Reflection Context erscheint nicht</strong></summary>
-Trigger: ≥ 3 Stop-Losses in letzten 20 Trades + kein Refresh in den letzten 2 h. Im Log erscheint <code>⚠ REFLECTION</code> wenn aktiv.
+<summary><strong>Reflection Context does not appear</strong></summary>
+Trigger: ≥ 3 stop-losses in last 20 trades + no refresh in the last 2 h. The log shows <code>⚠ REFLECTION</code> when active.
 </details>
 
 <details>
 <summary><strong>Optimizer: "Exited with code 1"</strong></summary>
-Ausgabe prüfen. Wenn ein 🏆-Block vorhanden ist, war der Lauf erfolgreich.
+Check the output. If a 🏆 block is present, the run was successful.
 </details>
 
 <details>
-<summary><strong>Prompt-Editor: "Dateien fehlen"</strong></summary>
-Warntext anklicken → <em>Create default files now</em>. Oder Launcher neu starten — Auto-Heal erstellt alle Prompt-Dateien beim Start.
+<summary><strong>Prompt editor: "Files missing"</strong></summary>
+Click the warning text → <em>Create default files now</em>. Or restart the launcher — auto-heal creates all prompt files on startup.
 </details>
 
 ---
 
-## 📁 Projektstruktur
+## 📁 Project Structure
 
 ```text
 ObsidianBot/
-├── launcher.pyw                  # Desktop-Terminal (GUI, CustomTkinter)
-├── OBSIDIAN.vbs                  # Starter ohne CMD-Fenster
-├── INSTALL.bat                   # One-Click Installer
+├── launcher.pyw                  # Desktop terminal (GUI, CustomTkinter)
+├── OBSIDIAN.vbs                  # Starter without CMD window
+├── INSTALL.bat                   # One-click installer
 │
-├── main_bot_balanced.py          # BALANCED Bot
-├── main_bot_aggressive.py        # AGGRESSIVE Bot
-├── main_bot_futures.py           # FUTURES Bot
+├── main_bot_balanced.py          # BALANCED bot
+├── main_bot_aggressive.py        # AGGRESSIVE bot
+├── main_bot_futures.py           # FUTURES bot
 │
-├── screener.py                   # Multi-TF Screener + Composite Scoring
+├── screener.py                   # Multi-TF screener + composite scoring
 ├── news_brain.py                 # News + LLM (BALANCED)
 ├── news_brain_aggressive.py      # News + LLM (AGGRESSIVE)
 ├── news_brain_futures.py         # News + LLM (FUTURES)
-├── llm_utils.py                  # Bull/Bear Challenge · Keyword-Fallback
+├── llm_utils.py                  # Bull/Bear challenge · keyword fallback
 ├── risk_manager.py               # Kelly · RSI · Blacklist · Reflection
-├── market_filters.py             # BTC-Korrelation · F&G · Regime
-├── database.py                   # SQLite (7 Tabellen, WAL-Mode)
-├── logger.py                     # ANSI-Logs · JSON-Lines · Latenz
-├── news_sources.py               # Zentrale News-Aggregation (11 Quellen)
+├── market_filters.py             # BTC correlation · F&G · Regime
+├── database.py                   # SQLite (7 tables, WAL mode)
+├── logger.py                     # ANSI logs · JSON lines · Latency
+├── news_sources.py               # Central news aggregation (11 sources)
 │
-├── backtester.py                 # Historischer Backtest
-├── optimizer.py                  # K-Fold Parameter-Optimizer
-├── dashboard.py                  # Streamlit-Analytics
+├── backtester.py                 # Historical backtest
+├── optimizer.py                  # K-Fold parameter optimizer
+├── dashboard.py                  # Streamlit analytics
 │
-├── bot_config.json               # Live-Parameter (von UI geschrieben)
-├── trading_bot.db                # SQLite-Datenbank (auto-erstellt)
+├── bot_config.json               # Live parameters (written by UI)
+├── trading_bot.db                # SQLite database (auto-created)
 │
 └── prompts/
-    ├── balanced.txt              # Aktiver BALANCED-Prompt (editierbar)
-    ├── balanced_default.txt      # Unveränderter Default (Reset-Quelle)
+    ├── balanced.txt              # Active BALANCED prompt (editable)
+    ├── balanced_default.txt      # Unchanged default (reset source)
     ├── aggressive.txt
     ├── aggressive_default.txt
     ├── futures.txt
@@ -580,27 +580,27 @@ ObsidianBot/
 
 ## ⚠️ Disclaimer
 
-> **Krypto-Trading birgt erhebliches Kapitalrisiko.**
-> Futures-Trading ist gehebelt — Verluste werden genauso verstärkt wie Gewinne.
-> Bei 10× Leverage kann eine Preisbewegung von ~9.5% zur Liquidation führen.
-> Der Liq-Safety-Buffer schließt Positionen vorher automatisch, eliminiert das Risiko aber **nicht**.
+> **Crypto trading involves significant capital risk.**
+> Futures trading is leveraged — losses are amplified just as much as gains.
+> At 10× leverage, a price movement of ~9.5% can lead to liquidation.
+> The liquidation safety buffer closes positions automatically beforehand, but does **not** eliminate the risk.
 >
-> Vergangene Backtest-Performance garantiert keine zukünftigen Ergebnisse.
+> Past backtest performance does not guarantee future results.
 >
-> **Starte immer im Simulation-Modus.** Investiere niemals mehr als du dir leisten kannst zu verlieren.
+> **Always start in simulation mode.** Never invest more than you can afford to lose.
 >
-> *Nutzung auf eigenes Risiko.*
+> *Use at your own risk.*
 
 ---
 
-## 💬 Kontakt & Support
+## 💬 Contact & Support
 
-Fragen, Feedback, Bug-Reports oder einfach Interesse am Projekt?
-**Schreib mir direkt auf Telegram:**
+Questions, feedback, bug reports or just interested in the project?
+**Message me directly on Telegram:**
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/▶_Chat_auf_Telegram-@Padudu0815-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0a0a0f)](https://t.me/Padudu0815)
+[![Telegram](https://img.shields.io/badge/▶_Chat_on_Telegram-@Padudu0815-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0a0a0f)](https://t.me/Padudu0815)
 
 **[t.me/Padudu0815](https://t.me/Padudu0815)**
 
@@ -608,13 +608,13 @@ Fragen, Feedback, Bug-Reports oder einfach Interesse am Projekt?
 
 ---
 
-## ⚖️ Haftungsausschluss & Copyright
+## ⚖️ Liability Disclaimer & Copyright
 
-**Copyright © 2026 Obsidian Trading Terminal. Alle Rechte vorbehalten.**
+**Copyright © 2026 Obsidian Trading Terminal. All rights reserved.**
 
-Krypto-Trading birgt erhebliche Risiken. Die Nutzung dieser Software erfolgt auf eigenes Risiko.
-Der Autor übernimmt keine Haftung für finanzielle Verluste.
-Jegliche Modifikation des Codes oder das Entfernen von Copyright-Hinweisen ist strengstens untersagt.
+Crypto trading involves significant risks. Use of this software is at your own risk.
+The author accepts no liability for financial losses.
+Any modification of the code or removal of copyright notices is strictly prohibited.
 
 ---
 
@@ -626,7 +626,7 @@ Jegliche Modifikation des Codes oder das Entfernen von Copyright-Hinweisen ist s
 
 <br/>
 
-*Drei Bots. Ein Terminal. Vollständig lokal.*
+*Three bots. One terminal. Fully local.*
 
 ◆
 
