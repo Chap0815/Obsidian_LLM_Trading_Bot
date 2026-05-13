@@ -574,9 +574,6 @@ ObsidianBot/
     ├── aggressive_default.txt
     ├── futures.txt
     └── futures_default.txt
-```
-
----
 
 ## ⚠️ Disclaimer
 
