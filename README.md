@@ -140,7 +140,7 @@ What makes it different from the dozens of other "AI trading bots" on GitHub:
 
 ## 🆕 What's New in 3.0
 
-> **Phase 3 — Modular Architecture + Deep Audit.** The 6,635-line monolithic launcher was rewritten into a clean, testable package. A systematic deep-audit found **43 bugs across the bot core**, plus **8 additional Futures-specific bugs** missed by previous reviews. This release ships every one of them as a targeted fix.
+> **Phase 3 — Modular Architecture + Deep Audit.** The 6,635-line monolithic launcher was rewritten into a clean, testable package. A systematic deep-audit found **3 bugs across the bot core**, plus **2 additional Futures-specific bugs** missed by previous reviews. This release ships every one of them as a targeted fix.
 
 <table>
 <tr>
