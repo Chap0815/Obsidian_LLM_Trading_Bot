@@ -59,7 +59,8 @@ No SaaS. No API key for "the AI". No monthly bill. No data leaving your machine.
 </table>
 
 <img width="2194" alt="Obsidian Trading Terminal — Dashboard"
-     src="https://github.com/user-attachments/assets/2c222b2a-2ae5-4555-b2e9-71f9a169c987" />
+     src="https://github.com/user-attachments/assets/6d02aca6-6b09-48da-aef4-459469d3db80"
+ />
 
 </div>
 
