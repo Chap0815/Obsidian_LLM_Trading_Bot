@@ -8,7 +8,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,35:1a0b2e,75:6D28D9,100:8B5CF6&height=260&section=header&text=◆%20OBSIDIAN&fontSize=84&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=The%20AI-Powered%20Crypto%20Trading%20Terminal&descAlignY=58&descSize=20&descAlign=50" alt="Obsidian Trading Terminal"/>
 </a>
 
-### Three elite bots. One native terminal. A language model that runs on *your* machine.
+### Four elite bots. One native terminal. A language model that runs on *your* machine.
 
 <p>
   <em>Autonomous spot &amp; perpetuals trading — engineered for control, not subscriptions.</em><br/>
@@ -18,7 +18,7 @@
 <br/>
 
 <p>
-  <a href="#-the-arsenal"><img src="https://img.shields.io/badge/Version-3.5-8B5CF6?style=for-the-badge&labelColor=0a0a0f" alt="Version"/></a>
+  <a href="#-the-arsenal"><img src="https://img.shields.io/badge/Version-4.0-8B5CF6?style=for-the-badge&labelColor=0a0a0f" alt="Version"/></a>
   <a href="#-request-access"><img src="https://img.shields.io/badge/Access-Private-ef4444?style=for-the-badge&labelColor=0a0a0f" alt="Private"/></a>
   <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0a0a0f" alt="Python"/></a>
   <a href="https://ollama.ai"><img src="https://img.shields.io/badge/LLM-Ollama-FF6B6B?style=for-the-badge&logo=ollama&logoColor=white&labelColor=0a0a0f" alt="LLM"/></a>
@@ -26,16 +26,16 @@
 </p>
 
 <p>
+  <img src="https://img.shields.io/badge/NEW-Market--Neutral%20CROSS%20bot-22c55e?style=flat-square&labelColor=0a0a0f" alt="New Cross bot"/>
   <img src="https://img.shields.io/badge/Edge-Validated%20over%20720d-22c55e?style=flat-square&labelColor=0a0a0f" alt="Validated"/>
-  <img src="https://img.shields.io/badge/Architecture-Modular-8B5CF6?style=flat-square&labelColor=0a0a0f" alt="Modular"/>
+  <img src="https://img.shields.io/badge/Run-All%204%20at%20once-8B5CF6?style=flat-square&labelColor=0a0a0f" alt="Coexistence"/>
   <img src="https://img.shields.io/badge/Exchanges-9%20via%20CCXT-f59e0b?style=flat-square&labelColor=0a0a0f" alt="Exchanges"/>
-  <img src="https://img.shields.io/badge/Windows%20·%20Linux-blue?style=flat-square&labelColor=0a0a0f" alt="Platforms"/>
   <img src="https://img.shields.io/badge/Telemetry-None-22c55e?style=flat-square&labelColor=0a0a0f" alt="No telemetry"/>
 </p>
 
 <br/>
 
-<kbd>&nbsp;📈&nbsp;&nbsp;<b>TREND</b>&nbsp;</kbd> &nbsp; <kbd>&nbsp;⚡&nbsp;&nbsp;<b>SPOT</b>&nbsp;</kbd> &nbsp; <kbd>&nbsp;🔥&nbsp;&nbsp;<b>FUTURES</b>&nbsp;</kbd>
+<kbd>&nbsp;📈&nbsp;&nbsp;<b>TREND</b>&nbsp;</kbd> &nbsp; <kbd>&nbsp;⚡&nbsp;&nbsp;<b>SPOT</b>&nbsp;</kbd> &nbsp; <kbd>&nbsp;🔥&nbsp;&nbsp;<b>FUTURES</b>&nbsp;</kbd> &nbsp; <kbd>&nbsp;⚖️&nbsp;&nbsp;<b>CROSS</b>&nbsp;<sup>NEW</sup>&nbsp;</kbd>
 
 </div>
 
@@ -45,7 +45,7 @@
 
 ## ⚡ What is Obsidian?
 
-> **Obsidian is a complete trading desk in a single desktop window.** Three independent strategy bots run side by side as isolated subprocesses, every market decision that needs *judgment* is made by a **language model running locally on your own GPU** — and not one byte of your strategy, keys, or activity ever touches a cloud.
+> **Obsidian is a complete trading desk in a single desktop window.** Four independent strategy bots run side by side as isolated subprocesses, every market decision that needs *judgment* is made by a **language model running locally on your own GPU** — and not one byte of your strategy, keys, or activity ever touches a cloud.
 
 No SaaS. No API key for "the AI". No monthly bill. No data leaving your machine. You own the engine, the model, and the edge.
 
@@ -54,12 +54,13 @@ No SaaS. No API key for "the AI". No monthly bill. No data leaving your machine.
 <table width="100%">
 <tr>
 <td align="left"><sub><b>◆ &nbsp; OBSIDIAN TRADING TERMINAL</b></sub></td>
-<td align="right"><sub><code>v 3.5</code> &nbsp; <code>● LIVE</code></sub></td>
+<td align="right"><sub><code>v 4.0</code> &nbsp; <code>● LIVE</code></sub></td>
 </tr>
 </table>
 
 <img width="2194" alt="Obsidian Trading Terminal — Dashboard"
-     src="https://github.com/user-attachments/assets/6d02aca6-6b09-48da-aef4-459469d3db80"
+     src="https://github.com/user-attachments/assets/e5756094-a710-4b0a-8610-58019dba6920" />
+"
  />
 
 </div>
@@ -68,7 +69,7 @@ No SaaS. No API key for "the AI". No monthly bill. No data leaving your machine.
 
 <table>
 <tr>
-  <td align="center" width="150"><h2>3</h2><sub><b>ELITE BOTS</b></sub><br/><sub>Trend · Spot · Futures</sub></td>
+  <td align="center" width="150"><h2>4</h2><sub><b>ELITE BOTS</b></sub><br/><sub>Trend · Spot · Futures · Cross</sub></td>
   <td align="center" width="150"><h2>720d</h2><sub><b>EDGE VALIDATED</b></sub><br/><sub>full bull + bear cycle</sub></td>
   <td align="center" width="150"><h2>9</h2><sub><b>EXCHANGES</b></sub><br/><sub>one config switch</sub></td>
   <td align="center" width="150"><h2>11</h2><sub><b>NEWS FEEDS</b></sub><br/><sub>fused in parallel</sub></td>
@@ -86,7 +87,7 @@ No SaaS. No API key for "the AI". No monthly bill. No data leaving your machine.
 
 ## 🎯 The Arsenal
 
-> Three bots. Three philosophies. Each one a specialist — run them solo, or unleash all three at once and let them cover spot trends, momentum breakouts, and leveraged swings simultaneously. Every bot has its own SIM/LIVE switch, its own risk envelope, and its own live-editable parameters.
+> Four bots. Four philosophies. Each one a specialist — run them solo, or unleash all four at once and let them cover spot trends, momentum breakouts, leveraged swings **and a market-neutral book** simultaneously. Every bot has its own SIM/LIVE switch, its own risk envelope, and its own live-editable parameters.
 
 <br/>
 
@@ -94,10 +95,9 @@ No SaaS. No API key for "the AI". No monthly bill. No data leaving your machine.
 <tr>
 
 <!-- ───────────── TREND ───────────── -->
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 📈 TREND
-#### *The Strategist*
+### 📈 TREND · *The Strategist*
 
 The crown jewel. A long/flat **ensemble** that rides the majors only while they're genuinely trending — and steps aside when they aren't. **Mechanical, disciplined, and the one strategy in Obsidian with a statistically validated edge.**
 
@@ -110,21 +110,18 @@ Signal   : >=2 of 3 must agree
    price > SMA100
    SMA20 > SMA50
 Style    : SPOT — zero leverage
-Sizing   : 20 USDT / coin
 Cadence  : every 12 h
-Safety   : -30% disaster stop
-           -50$ daily killswitch
+Safety   : -30% disaster · -50$ daily
 ```
 
-**Why it wins:** the edge is *risk-adjusted*. It harvests the trend and dodges the bear — leverage-free by design, because leverage would only re-inflate the drawdown it removes.
+**Why it wins:** the edge is *risk-adjusted* — it harvests the trend and dodges the bear, leverage-free by design.
 
 </td>
 
 <!-- ───────────── SPOT ───────────── -->
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### ⚡ SPOT
-#### *The Sniper*
+### ⚡ SPOT · *The Sniper*
 
 A momentum hunter that waits for conviction. It only engages when an impulse, a clean pump window, and a supportive macro all line up — then a **local LLM** vets the setup against live news before a cent is committed.
 
@@ -134,23 +131,23 @@ A momentum hunter that waits for conviction. It only engages when an impulse, a 
 Style       : SPOT — zero leverage
 Min. Pump   : 6.0 %
 Take-Profit : +9.0 % activation
-Trailing    : 3.0 %
-Stop-Loss   : -6.0 %
-Partial Sell: 60 %
-Max Trades  : 5
+Trailing    : 3.0 %  ·  Stop: -6.0 %
+Partial Sell: 60 %   ·  Max: 5 trades
 Scan        : every 150 s
 Guardrail   : -50$ daily killswitch
 ```
 
-**Why it's sharp:** RSI/BTC/Fear-&-Greed gates plus an LLM news veto mean it stays *flat* through chop and strikes only on quality breakouts.
+**Why it's sharp:** RSI/BTC/Fear-&-Greed gates plus an LLM news veto keep it *flat* through chop and striking only on quality breakouts.
 
 </td>
 
-<!-- ───────────── FUTURES ───────────── -->
-<td width="33%" valign="top">
+</tr>
+<tr>
 
-### 🔥 FUTURES
-#### *The Predator*
+<!-- ───────────── FUTURES ───────────── -->
+<td width="50%" valign="top">
+
+### 🔥 FUTURES · *The Predator*
 
 Long **and** short. A leveraged perpetuals engine where **price action picks the direction** and the LLM acts as a pure **veto** — so the model can kill a bad trade but never hallucinate one into existence.
 
@@ -160,8 +157,7 @@ Long **and** short. A leveraged perpetuals engine where **price action picks the
 Style      : PERPETUALS — long/short
 Direction  : price action + LLM veto
 Leverage   : fully configurable
-Liq Buffer : 15 %
-Stop-Loss  : -3.5 %
+Liq Buffer : 15 %  ·  Stop: -3.5 %
 Take-Profit: +4.5 % activation
 Killswitch : two-tier — soft + flatten
 ```
@@ -170,14 +166,65 @@ Killswitch : two-tier — soft + flatten
 
 </td>
 
+<!-- ───────────── CROSS (NEW) ───────────── -->
+<td width="50%" valign="top">
+
+### ⚖️ CROSS · *The Equalizer* &nbsp;<kbd>NEW</kbd>
+
+The newest weapon — and a completely different animal. Instead of scanning one coin at a time, CROSS trades a **dollar-neutral portfolio**: **long the strongest** performers, **short the weakest**, in equal size. It aims to profit from *dispersion* — winners outrunning losers — **whether the whole market pumps or dumps.**
+
+> ⚖️ Market-neutral by construction. Its P&L rides the *spread between leaders and laggards*, not the direction of BTC.
+
+```yaml
+Style     : PERPETUALS — market-neutral
+Book      : long top-6 / short bottom-6
+Universe  : top 40 liquid perps
+Ranking   : 24h cross-sectional return
+Rebalance : every 72 h (anchored)
+Margin    : CROSS — low leverage (≤1.5x)
+Safety    : own-momentum crash filter
+            -25% per-leg · -50$ daily
+```
+
+**Why it's different:** a self-hedging book that can grind out returns in chop and sidesteps single-coin blowups with a per-leg disaster stop. **Ships SIM-first** — paper-trade it while it proves out on your venue.
+
+</td>
+
 </tr>
 </table>
 
 <div align="center">
 
-`▶ Run one. Run all three. Each in SIM or LIVE, independently.`
+`▶ Run one. Run all four. Each in SIM or LIVE, independently.`
 
 </div>
+
+---
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+
+## 🤝 One Account, Four Bots, Zero Collisions
+
+Running four strategies on a single exchange account sounds like a recipe for chaos — two bots fighting over the same coin, positions netting into each other, accounting turning to mush. Obsidian solves this at the architecture level.
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**Exclusive coin claims**
+Every open position is registered in a shared ownership ledger. Before any bot enters a trade it checks the ledger — **if another bot already holds that coin, it stands down** and picks the next candidate. No two bots ever touch the same symbol, so nothing nets against itself.
+
+</td>
+<td valign="top" width="50%">
+
+**Isolated by design**
+Each bot is its own OS subprocess, its own SIM/LIVE switch, its own risk envelope, its own logs and P&L. One bot crashing, pausing, or hitting its killswitch never touches the others. The claim ledger survives restarts — relaunch and ownership is exactly where it was.
+
+</td>
+</tr>
+</table>
+
+> The result: **flip all four to LIVE and walk away.** TREND rides the majors, SPOT snipes breakouts, FUTURES works both directions with leverage, and CROSS runs a market-neutral book underneath — each in its own lane.
 
 ---
 
@@ -187,16 +234,17 @@ Killswitch : two-tier — soft + flatten
 
 Most "AI trading bots" *assume* they work. Obsidian **proves** it — or honestly throws the idea away.
 
-A purpose-built, **lookahead-free** research toolkit put every premise on trial against real exchange data. Three ideas were rejected. One passed convincingly and became the **TREND** bot:
+A purpose-built, **lookahead-free** research toolkit put every premise on trial against real exchange data. The standout passed convincingly and became the **TREND** bot; the others are shipped honestly for what they are.
 
 | Premise | Verdict |
 |---|---|
-| Momentum-chasing (buy what already pumped) | ❌ No edge |
+| **Trend-following on the majors** | ✅ **VALIDATED — shipping as TREND** |
+| Cross-sectional momentum (market-neutral) | 🧪 **Regime-dependent — shipping as CROSS, SIM-first** |
+| Momentum-chasing (buy what already pumped) | ❌ No standalone edge |
 | Funding-carry (delta-neutral) | ❌ Not viable after costs |
 | Pairs trading (spread reversion) | ❌ Majors don't cointegrate |
-| **Trend-following on the majors** | ✅ **VALIDATED — now shipping as TREND** |
 
-> Over a full **bull + bear cycle**, the ensemble beat buy-and-hold on **both return and drawdown**, stayed robust across parameter sweeps, and won on **4 of 5 coins** (ETH: **+57 % vs −55 %**). That's not a backtest fairy tale — it's a survivable, mechanical edge.
+> Over a full **bull + bear cycle**, the TREND ensemble beat buy-and-hold on **both return and drawdown**, stayed robust across parameter sweeps, and won on **4 of 5 coins** (ETH: **+57 % vs −55 %**). That's not a backtest fairy tale — it's a survivable, mechanical edge. Everything else ships with the same honesty: nothing is dressed up as more than the data supports.
 
 ---
 
@@ -204,7 +252,7 @@ A purpose-built, **lookahead-free** research toolkit put every premise on trial 
 
 ## 🧠 The AI Engine — Local, Private, Yours
 
-> **TREND** is intentionally LLM-free — its edge is mechanical. **SPOT** and **FUTURES** run the full intelligence pipeline below, powered entirely by a model on **your** hardware (Ollama · Qwen / DeepSeek-R1 / Mistral). No OpenAI bill. No prompt leaving your disk.
+> **TREND** and **CROSS** are intentionally LLM-free — their edges are purely mechanical / quantitative. **SPOT** and **FUTURES** run the full intelligence pipeline below, powered entirely by a model on **your** hardware (Ollama · Qwen / DeepSeek-R1 / Mistral). No OpenAI bill. No prompt leaving your disk.
 
 ```text
 ┌──────────────────────────────────────────────────────────┐
@@ -237,15 +285,17 @@ Aggression is easy. *Surviving* is the hard part. Obsidian wraps every bot in la
 - 📊 **Adaptive RSI thresholds** tuned to recent win-rate
 - 🚫 **Auto-blacklist** of repeat-loser coins (persisted)
 - 📅 **Time-of-day gating** — poor-win-rate hours blocked
+- ⚖️ **Market-neutral book** — CROSS hedges direction by design
 - 📈 **Disaster stops** — gap & flash-crash brakes
 
 </td>
 <td valign="top" width="50%">
 
 **Circuit breakers**
-- 🛑 **Daily-loss killswitch** — Spot/Trend soft stop · **Futures two-tier: SAFE-MODE + flatten-all**
+- 🛑 **Daily-loss killswitch** — Spot/Trend soft stop · **Futures/Cross: SAFE-MODE + flatten-all**
 - 📉 **BTC-correlation guard** — no buys into a BTC dump
 - 😱 **Fear &amp; Greed** — no buys at extreme greed
+- 🌀 **Own-momentum crash filter** — CROSS exits a book that turns on it
 - ⚡ **API error-rate auto-pause** + backoff breaker
 - 🆕 **SafeMode survives restarts**
 
@@ -297,7 +347,8 @@ Every tool runs standalone, connects to your exchange, and is **lookahead-free**
 
 ```bash
 python tools/trend_check.py 720 --sweep     # validate the trend edge (bull+bear, robustness sweep)
-python optimizer.py FUTURES 90              # K-Fold parameter optimization (real leverage)
+python tools/xsec_momentum.py               # cross-sectional momentum study (the CROSS engine)
+python -m tools.optimizer FUTURES 90        # K-Fold parameter optimization (real leverage)
 python tools/pairs_check.py 90              # pairs cointegration scan (rolling-β, no lookahead)
 python tools/funding_check.py               # delta-neutral funding-carry viability
 ```
@@ -305,7 +356,8 @@ python tools/funding_check.py               # delta-neutral funding-carry viabil
 | Tool | Purpose |
 |---|---|
 | `tools/trend_check.py` | Trend-following vs buy-and-hold with `--sweep` robustness |
-| `optimizer.py` · `tools/backtester.py` | K-Fold optimization & multi-day backtests with real fees + slippage |
+| `tools/xsec_momentum.py` | Cross-sectional long/short momentum study (drives CROSS) |
+| `tools/optimizer.py` · `tools/backtester.py` | K-Fold optimization & multi-day backtests with real fees + slippage |
 | `tools/pairs_check.py` · `tools/funding_check.py` | Honest viability checks for spread- and funding-based ideas |
 
 ---
@@ -317,22 +369,22 @@ python tools/funding_check.py               # delta-neutral funding-carry viabil
 ```text
    launcher.pyw ─▶ launcher/  (config · core · state · ui)
                         │
-        ┌───────────────┼───────────────┐
-        ▼               ▼               ▼
-      TREND            SPOT           FUTURES          ← isolated subprocesses
-        │               │               │
-        ▼               ▼               ▼
-   core/  trend_bot · spot_bot{scan,exits,reconcile} · futures_bot{…}
+      ┌──────────┬──────┴──────┬──────────┐
+      ▼          ▼             ▼          ▼
+    TREND      SPOT         FUTURES     CROSS         ← isolated subprocesses
+      │          │             │          │
+      ▼          ▼             ▼          ▼
+   core/  trend_bot · spot_bot{scan,exits,reconcile} · futures_bot{…} · cross_bot
           state_manager · database · logger · symbol_locks · event_bus
-        │
-        ▼
-   trading/   trend_signal (pure, unit-tested) · risk_manager · screener
+                        │
+                        ▼
+   trading/   trend_signal · xsec_signal (pure, unit-tested) · risk_manager · screener
    news/      news_brain_spot · news_brain_futures · 11 sources · Ollama
-   tools/     optimizer · backtester · trend / pairs / funding checks
-        │
-        ▼
-   SQLite (WAL + identifier whitelist) · atomic JSON · CCXT → 9 exchanges
-   Local LLM (Ollama) · Telegram alerts · Streamlit dashboard
+   tools/     optimizer · backtester · trend / xsec / pairs / funding checks
+                        │
+                        ▼
+   SQLite (WAL + identifier whitelist) · atomic JSON · shared claim ledger
+   CCXT → 9 exchanges · Local LLM (Ollama) · Telegram alerts · Streamlit dashboard
 ```
 
 A native **CustomTkinter** launcher drives it all: per-bot start/stop, SIM↔LIVE toggles, live parameter editing, open-position monitors, a system-health panel, and a one-click emergency flatten.
@@ -345,7 +397,7 @@ A native **CustomTkinter** launcher drives it all: per-bot start/stop, SIM↔LIV
 
 > **Crypto trading carries significant capital risk.** Futures are leveraged — losses amplify exactly as fast as gains. Liquidation buffers and disaster-stops *reduce* risk; they do not eliminate it.
 >
-> **A validated backtest is encouragement, not a guarantee.** One bull+bear cycle is not the future.
+> **A validated backtest is encouragement, not a guarantee.** One bull+bear cycle is not the future. Market-neutral does not mean risk-free.
 >
 > **Always start in simulation mode. Never risk more than you can afford to lose.** *Use entirely at your own risk.*
 
@@ -397,7 +449,7 @@ Closed-source as of version 2.0. No part of the source code, configuration, prom
 
 <br/>
 
-*Three bots. One terminal. Fully local. A validated edge.*
+*Four bots. One terminal. Fully local. A validated edge.*
 
 <br/>◆<br/>
 
